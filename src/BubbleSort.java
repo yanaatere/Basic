@@ -1,13 +1,10 @@
-import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
-import java.util.*;
-import java.util.concurrent.*;
-import java.util.function.*;
-import java.util.regex.*;
-import java.util.stream.*;
-import static java.util.stream.Collectors.joining;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Collections;
+import java.util.List;
+import java.util.stream.Stream;
+
 import static java.util.stream.Collectors.toList;
 public class BubbleSort {
         public static void main(String[] args) throws IOException {
@@ -25,13 +22,6 @@ public class BubbleSort {
 
 
 class Result {
-
-    /*
-     * Complete the 'countSwaps' function below.
-     *
-     * The function accepts INTEGER_ARRAY a as parameter.
-     */
-
     public static void countSwaps(List<Integer> a) {
         int count = 0;
         for (int i = 0; i < a.size(); i++) {
