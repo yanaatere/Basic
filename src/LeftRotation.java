@@ -1,15 +1,11 @@
-import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
-import java.util.*;
-import java.util.concurrent.*;
-import java.util.function.*;
-import java.util.regex.*;
-import java.util.stream.*;
-import static java.util.stream.Collectors.joining;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Stream;
+
 import static java.util.stream.Collectors.toList;
-import java.util.Collections;
 
 public class LeftRotation {
     public static void main(String[] args) throws IOException {
@@ -26,7 +22,7 @@ public class LeftRotation {
                 .map(Integer::parseInt)
                 .collect(toList());
 
-        List<Integer> result = Result.rotLeft(a, d);
+        List<Integer> result = rotateLeft(a, d);
 
         /*bufferedWriter.write(
                 result.stream()
@@ -39,16 +35,15 @@ public class LeftRotation {
         //bufferedWriter.close();
     }
 
-    class Result {
-        public static List<Integer> rotLeft(List<Integer> a, int d) {
-            List<Integer> b = Arrays.asList(new Integer[a.size()]);
-            for (int i = 0; i < a.size(); i++) {
-                int rotatedIndex = (i + (a.size() - d)) % a.size();
-                System.out.println("Rotate Index : " + rotatedIndex);
-                System.out.println("Data : " + a.get(i));
-                b.set(rotatedIndex, a.get(i));
-            }
-            return b;
+    public static List<Integer> rotateLeft(List<Integer> a, int d) {
+        List<Integer> b = Arrays.asList(new Integer[a.size()]);
+        for (int i = 0; i < a.size(); i++) {
+            int rotatedIndex = (i + (a.size() - d)) % a.size();
+            System.out.println("Rotate Index : " + rotatedIndex);
+            System.out.println("Data : " + a.get(i));
+            b.set(rotatedIndex, a.get(i));
         }
+        return b;
     }
+
 }
