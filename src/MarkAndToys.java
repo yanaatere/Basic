@@ -6,6 +6,13 @@ import java.util.stream.Stream;
 import static java.util.stream.Collectors.toList;
 
 public class MarkAndToys {
+
+    /*Input
+    * 7 50
+    * 1 12 5 111 200 1000 10
+    * Output
+    * 4
+    * */
     public static int maximumToys(List<Integer> prices, int k) {
         Collections.sort(prices);
         int totalToys = 0;
