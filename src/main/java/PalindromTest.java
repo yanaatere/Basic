@@ -1,3 +1,5 @@
+package main.java;
+
 import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
 
@@ -5,7 +7,7 @@ import org.junit.jupiter.api.Assertions;
  * @author Yana Andika
  * on 7/6/2023
  */
-public class palindromTest {
+public class PalindromTest {
 
     public boolean isPalindrom(String a){
         char[] chars =  a.toCharArray();

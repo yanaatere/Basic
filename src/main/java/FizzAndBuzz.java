@@ -1,3 +1,5 @@
+package main.java;
+
 /**
  * @author Yana Andika
  * on 5/28/2023

@@ -1,3 +1,5 @@
+package main.java;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -41,6 +43,5 @@ class StringCheckParashentesisTest {
     void testing(){
         String a = "(])";
         Assertions.assertTrue(checkParanshetesisUsingStack(a));
-        //Assertions.assertTrue(checkParanshetesis(a));
     }
 }
