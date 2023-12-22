@@ -1,0 +1,16 @@
+
+\
+java:S1854":Remove this useless assignment to local variable "result".(‡è©°úÿÿÿÿ8éÖÒæÃ1
+W
+java:S1854"5Remove this useless assignment to local variable "n".(ˆü×‘øÿÿÿÿ8éÖÒæÃ1
+]	java:S125"<This block of commented-out lines of code should be removed.(Øæœ€øÿÿÿÿ8êÖÒæÃ1
+H
+java:S1481"&Remove this unused "n" local variable.(ˆü×‘øÿÿÿÿ8ëÖÒæÃ1
+o
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8Ëá²êÆ1
+M
+java:S1481"+Remove this unused "result" local variable.(‡è©°úÿÿÿÿ8íÖÒæÃ1
+G	java:S106#"+Replace this use of System.out by a logger.(š·™Ì8ïÖÒæÃ1
+L	java:S106$"+Replace this use of System.out by a logger.(œ…–çÿÿÿÿÿ8ïÖÒæÃ1
+\
+java:S1128	"?Remove this unused import 'java.util.stream.Collectors.toList'.(ã‚ºÎ8Ïá²êÆ1

@@ -1,0 +1,11 @@
+
+E	java:S106"+Replace this use of System.out by a logger.(øÔë¿þÿÿÿÿ
+P
+java:S1854#"5Remove this useless assignment to local variable "n".(ˆü×‘øÿÿÿÿ
+A
+java:S1481#"&Remove this unused "n" local variable.(ˆü×‘øÿÿÿÿ
+o
+java:S6204)"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8£‹²êÆ1
+L	java:S106,"+Replace this use of System.out by a logger.(±ÚÂ˜øÿÿÿÿ8Ñø£çÃ1
+\
+java:S1128"?Remove this unused import 'java.util.stream.Collectors.toList'.(ã‚ºÎ8§‹²êÆ1

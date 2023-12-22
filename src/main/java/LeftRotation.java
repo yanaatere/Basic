@@ -1,10 +1,9 @@
-package main.java;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import static java.util.stream.Collectors.toList;
@@ -22,19 +21,11 @@ public class LeftRotation {
 
         List<Integer> a = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
                 .map(Integer::parseInt)
-                .collect(toList());
+                .collect(Collectors.toList());
 
         List<Integer> result = rotateLeft(a, d);
 
-        /*bufferedWriter.write(
-                result.stream()
-                        .map(Object::toString)
-                        .collect(joining(" "))
-                        + "\n"
-        );*/
-
         bufferedReader.close();
-        //bufferedWriter.close();
     }
 
     public static List<Integer> rotateLeft(List<Integer> a, int d) {

@@ -1,0 +1,9 @@
+
+Y
+java:S6208"CMerge the previous cases into this one using comma-separated label.(‹›£”
+f
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(–¿‹≤
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(ç–»÷
+H
+java:S5960-"+Remove this assertion from production code.(ıÛÊÒ8≈ÀŒÊ√1

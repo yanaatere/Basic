@@ -1,5 +1,3 @@
-package main.java;
-
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -10,6 +8,8 @@ import java.util.Stack;
  * on 7/6/2023
  */
 class StringCheckParashentesisTest {
+
+    /*Ini itu untuk mengecheck Buka Kurung dan Tutup Kurung*/
     public boolean checkParanshetesisUsingStack(String s) {
         char[] character = s.toCharArray();
         Stack<Character> cs = new Stack<>();

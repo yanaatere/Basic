@@ -1,0 +1,9 @@
+
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª²˜Ï8‹ï‘È1
+L	java:S106"+Replace this use of System.out by a logger.(²èËùÿÿÿÿ8¦ÿÈ1
+G	java:S106"+Replace this use of System.out by a logger.(å¨¸Ş8ï‘È1
+]
+java:S1126"AReplace this if-then-else statement by a single return statement.(”‰ĞA8ï‘È1
+L	java:S106"+Replace this use of System.out by a logger.(Î—¿ïÿÿÿÿÿ8ï‘È1
+P
+java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8íÄşÈ1

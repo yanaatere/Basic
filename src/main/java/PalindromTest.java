@@ -1,5 +1,3 @@
-package main.java;
-
 import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
 
@@ -17,13 +15,12 @@ public class PalindromTest {
                 return false;
             }
             length--;
-
         }
         return true;
     }
 
     @Test
     public void test(){
-        Assertions.assertTrue(isPalindrom("ABA"));
+        Assertions.assertTrue(isPalindrom("KATAK"));
     }
 }
